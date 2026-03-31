@@ -10,8 +10,6 @@ body {
   line-height: 1.6;
   background-color: #fdfdfd; 
   color: #303030;
- 
-
   display: flex;
   min-height: 100vh;
 }
@@ -33,7 +31,7 @@ aside header {
 aside header h2 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -53,7 +51,7 @@ aside nav ul li {
 
 aside nav ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -77,7 +75,7 @@ main header {
 main header h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: #000000;
+  color: #000;
 }
 
 main header img {
@@ -88,21 +86,21 @@ main header img {
 main section h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   margin-bottom: 20px;
 }
 
 article {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 12px;
   overflow: hidden; 
 }
 
 article h3 {
   background-color: #efefef;
-  color: #000000;
+  color: #000;
   padding: 15px 20px;
   font-size: 1.1rem;
   font-weight: 700;
@@ -124,7 +122,7 @@ article ul li {
 aside nav ul li a::before {
   content: "•";
   font-size: 1.2rem;
-  color: #000000;
+  color: #000;
 }
 
 
@@ -138,7 +136,7 @@ aside nav ul li a::before {
 }
 
 #login-container {
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   padding: 50px;
@@ -217,7 +215,7 @@ footer {
   color: #888;
 }
 
-@media (max-width: 768px) {
+@media (width: 768px) {
   body {
     flex-direction: column;
   }
