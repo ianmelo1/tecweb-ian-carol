@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aluno Online</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+
+  <body class="login-page">
+    <main id="login-container">
+      <header>
+        <img src="/learn.svg" alt="Ícone de chapéu de formatura">
+        <h2>Aluno Online</h2>
+      </header>
+
+      <form id="login-form">
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email">
+        <p id="email-error" class="error-msg"></p>
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password">
+        <p id="password-error" class="error-msg"></p>
+
+        <button type="submit">Entrar</button>
+      </form>
+    </main>
+
+    <footer>© 2026. Todos os direitos reservados.</footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
